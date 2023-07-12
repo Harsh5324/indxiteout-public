@@ -1,0 +1,13 @@
+.font-desc{    
+    font-size: 17px !important;
+    font-family: "karla", sans-serif;
+}
+.font-appr{
+    font-family: "karla", Arial !important;
+    font-size: 16px !important;
+
+}
+.box-s{
+    min-height: auto !important;
+    min-height: fit-content !important;
+}
