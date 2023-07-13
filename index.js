@@ -1,15 +1,11 @@
 const express = require("express");
 const app = express();
 
-app.use(express.static("./"));
+app.use(express.static("./build"));
 
 const path = require("path");
 app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "index.html"));
+    res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
 
-// if not in production use the port 5000
-const PORT = 80;
-
-console.log("server started on port:", PORT);
-app.listen(PORT);
+app.listen(80);
