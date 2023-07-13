@@ -1,0 +1,11 @@
+{
+  "name": "indxiteout-public",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Harsh5324/indxiteout-public.git",
+  "author": "Harsh Patel <thepatel5324@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
